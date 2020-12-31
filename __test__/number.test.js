@@ -7,4 +7,13 @@ describe('Comparar números', () => {
     test('Mayor que o igual', () => {
         expect(numbers(2,2)).toBeGreaterThanOrEqual(4);
     });
+    test('Menor que', () => {
+        expect(numbers(2,2)).toBeLessThan(5);
+    });
+    test('Menor que o igual', () => {
+        expect(numbers(2,2)).toBeLessThanOrEqual(4);
+    });
+    test('Flotante', () => {
+        expect(numbers(0.2,0.2)).toBeCloseTo(0.4);
+    });
 });
