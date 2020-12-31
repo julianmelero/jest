@@ -14,7 +14,6 @@ describe('Comparadores comunes', () => {
    test('Igualdad de elementos', () => {
         expect(user).toEqual(user2);
    });
-
    test('Desigual', () => {
     expect(user).not.toEqual(user2);
    });
