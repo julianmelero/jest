@@ -23,3 +23,9 @@ describe('Probar resultados undefined', () => {
         expect(isUndefined()).toBeUndefined();
     });
 });
+
+describe('Probar resultados no verdaderos', () => {
+    test('Falso o verdadero', () => {
+        expect(isFalse()).not.toBeTruthy();
+    });
+});
